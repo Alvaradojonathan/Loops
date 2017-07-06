@@ -70,6 +70,31 @@ namespace copyArray
             //}
             //Console.WriteLine(productOne);
 
+
+            //FOREACH loops
+            //Used to iterate over a collection (ex. array or list)
+            //You can think of the structure of a foreach loop as the statement:
+            //
+            //foreach(dataType variable in collectionName)
+            //{
+            //  Do something
+            //}
+            //
+            //int [] studentGrades = {4,4,4,3,4,3};
+            //foreach(int grade in studentGrades)
+            //{
+            //   Console.WriteLine(grade)
+            //}
+            //string[] calendar = { "Jan", "Feb", "Mar", "Apr", "May", "Jun" };
+            //foreach(string month in calendar)
+            //{
+            //    Console.WriteLine(month);
+
+            string[] musicians = { "Nengo", "Arctic Monkeys", "Florence", "John Newman", "TDCC", "Elvis" };
+            foreach(string musician in musicians)
+            {
+                Console.WriteLine(musician);
+            }
         }
     }
 }
