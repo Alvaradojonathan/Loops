@@ -90,10 +90,17 @@ namespace copyArray
             //{
             //    Console.WriteLine(month);
 
-            string[] musicians = { "Nengo", "Arctic Monkeys", "Florence", "John Newman", "TDCC", "Elvis" };
-            foreach(string musician in musicians)
+            //string[] musicians = { "Nengo", "Arctic Monkeys", "Florence", "John Newman", "TDCC", "Elvis" };
+            //foreach(string musician in musicians)
+            //{
+            //    Console.WriteLine(musician);
+            //}
+            Console.WriteLine("Enter your name:");
+            string firstName = Console.ReadLine();
+            while(firstName.ToLower () == "jonathan" )
             {
-                Console.WriteLine(musician);
+                Console.WriteLine("Dude, you're amazing.");
+                break;
             }
         }
     }
